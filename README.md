@@ -1,31 +1,42 @@
-# Lint
+# lint
 
-TODO: Write a gem description
+A collection of code linters and opinionated config files.
+
+Made primarily for internal use.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'lint'
-```
+    gem 'lint'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install it manually as:
 
     $ gem install lint
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/lint/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create new Pull Request
+
+## Copyright
+
+Copyright (c) 2015 Matthias Siegel. See [LICENSE][] for details.
+
+## Changelog
+
+See [CHANGELOG][] for details.
+
+[license]: LICENSE.md
+[changelog]: CHANGELOG.md
