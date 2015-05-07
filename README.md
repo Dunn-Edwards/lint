@@ -4,9 +4,11 @@ A collection of code linters and opinionated config files.
 
 Made primarily for internal use.
 
+Currently only works with Rails because it uses Railties.
+
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile (in the development/test group):
 
     gem 'lint'
 
@@ -20,7 +22,9 @@ Or install it manually as:
 
 ## Usage
 
-TODO
+After adding the gem, the following Rake tasks become available:
+
+    rake lint:scss
 
 ## Contributing
 

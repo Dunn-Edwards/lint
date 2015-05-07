@@ -1,5 +1,5 @@
-require "lint/version"
+require 'lint/version'
 
 module Lint
-  # Your code goes here...
+  require 'lint/railtie' if defined?(Rails)
 end
