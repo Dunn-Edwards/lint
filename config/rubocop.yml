@@ -1,0 +1,23 @@
+Style/AndOr:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/RegexpLiteral:
+  AllowInnerSlashes: true
+
+Lint/EndAlignment:
+  AlignWith: variable
+
+Metrics/LineLength:
+  Max: 120
