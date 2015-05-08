@@ -24,6 +24,7 @@ Or install it manually as:
 
 After adding the gem, the following Rake tasks become available:
 
+    rake lint:ruby
     rake lint:scss
 
 ## Contributing
