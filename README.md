@@ -6,6 +6,8 @@ Made primarily for internal use.
 
 Currently only works with Rails because it uses Railties.
 
+[![Gem Version](https://badge.fury.io/rb/lint.svg)](http://badge.fury.io/rb/lint)
+
 ## Installation
 
 Add this line to your application's Gemfile (in the development/test group):
