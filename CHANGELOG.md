@@ -2,6 +2,8 @@
 
 ## Master
 
+* coffeelint gem integrated
+
 ## 0.2.0
 
 * rubocop gem integrated

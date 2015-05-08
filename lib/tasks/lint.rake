@@ -1,3 +1,4 @@
+require 'coffeelint'
 require 'rubocop/rake_task'
 
 namespace :lint do
@@ -13,6 +14,11 @@ namespace :lint do
     task.formatters = ['progress']
     task.fail_on_error = true
     task.options = ['--config', config('rubocop.yml')]
+  end
+
+  desc 'Run Coffeelint quality checks'
+  task :coffeescript do
+    exit(1) unless Coffeelint.run_test_suite('app/assets/javascripts', config_file: config('coffeelint.json'))
   end
 
   def config(file)

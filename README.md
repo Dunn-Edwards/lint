@@ -26,6 +26,7 @@ Or install it manually as:
 
 After adding the gem, the following Rake tasks become available:
 
+    rake lint:coffeescript
     rake lint:ruby
     rake lint:scss
 
