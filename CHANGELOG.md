@@ -2,6 +2,8 @@
 
 ## Master
 
+## 0.3.0
+
 * coffeelint gem integrated
 
 ## 0.2.0
