@@ -2,7 +2,8 @@
 
 ## Master
 
-* Reduce Coffeescript max line length to 120
+* RuboCop: Disable PerlBackrefs cop
+* Coffeelint: Reduce max line length to 120
 
 ## 0.3.0
 
