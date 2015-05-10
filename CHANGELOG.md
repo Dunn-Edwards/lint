@@ -2,6 +2,8 @@
 
 ## Master
 
+## 0.3.1
+
 * RuboCop: Disable PerlBackrefs cop
 * Coffeelint: Reduce max line length to 120
 
