@@ -2,6 +2,8 @@
 
 ## Master
 
+* scss-lint gem changed name
+
 ## 0.3.1
 
 * RuboCop: Disable PerlBackrefs cop
