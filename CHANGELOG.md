@@ -2,6 +2,10 @@
 
 ## Master
 
+## 0.3.4
+
+* RuboCop: revert changes to MultilineOperationIndentation cop
+
 ## 0.3.3
 
 * Upgraded RuboCop
