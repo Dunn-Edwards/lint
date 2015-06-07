@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'coffeelint', '~> 1.9'
-  spec.add_dependency 'rubocop', '~> 0.31'
+  spec.add_dependency 'rubocop', '~> 0.32'
   spec.add_dependency 'scss_lint', '~> 0.38'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
