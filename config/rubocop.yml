@@ -7,9 +7,6 @@ Style/BlockComments:
 Style/Documentation:
   Enabled: false
 
-Style/MultilineOperationIndentation:
-  EnforcedStyle: aligned
-
 Style/NumericLiterals:
   Enabled: false
 
