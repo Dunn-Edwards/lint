@@ -2,27 +2,33 @@
 
 ## Master
 
+## 0.3.3
+
+* Upgraded RuboCop
+* RuboCop: enable RedundantSelf cop
+* RuboCop: change MultilineOperationIndentation style
+
 ## 0.3.2
 
-* Make Rake lint tasks available in gem
-* scss-lint gem changed name
+* Make rake tasks available in this gem
+* SCSS-lint gem changed name
 
 ## 0.3.1
 
-* RuboCop: Disable PerlBackrefs cop
-* Coffeelint: Reduce max line length to 120
+* RuboCop: disable PerlBackrefs cop
+* Coffeelint: reduce max line length to 120
 
 ## 0.3.0
 
-* coffeelint gem integrated
+* Coffeelint integrated
 
 ## 0.2.0
 
-* rubocop gem integrated
+* RuboCop integrated
 
 ## 0.1.0
 
-* scss-lint gem integrated
+* SCSS-lint integrated
 
 ## 0.0.1
 
