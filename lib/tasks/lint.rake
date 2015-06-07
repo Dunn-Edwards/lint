@@ -2,13 +2,12 @@ require 'coffeelint'
 require 'rubocop/rake_task'
 
 namespace :lint do
-
-  desc "Run SCSS quality checks"
+  desc 'Run SCSS quality checks'
   task :scss do
     exit(1) unless system("scss-lint app/assets/stylesheets --config #{config('scss-lint.yml')}")
   end
 
-  desc "Run Ruby quality checks"
+  desc 'Run Ruby quality checks'
   RuboCop::RakeTask.new(:ruby) do |task|
     task.patterns = ['{app,config,features,lib,spec}/**/*.{rb,rake}']
     task.formatters = ['progress']
@@ -24,5 +23,4 @@ namespace :lint do
   def config(file)
     File.realdirpath("#{__FILE__}/../../../config/#{file}")
   end
-
 end

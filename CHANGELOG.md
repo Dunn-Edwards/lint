@@ -2,6 +2,7 @@
 
 ## Master
 
+* Make Rake lint tasks available in gem
 * scss-lint gem changed name
 
 ## 0.3.1
