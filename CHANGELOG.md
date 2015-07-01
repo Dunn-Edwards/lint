@@ -2,6 +2,8 @@
 
 ## Master
 
+## 0.3.5
+
 * Upgraded Coffeelint
 
 ## 0.3.4
