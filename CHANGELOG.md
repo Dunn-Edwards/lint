@@ -2,6 +2,8 @@
 
 ## Master
 
+* Upgraded Coffeelint
+
 ## 0.3.4
 
 * RuboCop: revert changes to MultilineOperationIndentation cop
