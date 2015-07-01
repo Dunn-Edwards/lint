@@ -2,6 +2,8 @@
 
 ## Master
 
+* Coffeelint: disable `no_this` rule
+
 ## 0.3.5
 
 * Upgraded Coffeelint
