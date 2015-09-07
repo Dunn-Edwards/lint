@@ -2,6 +2,8 @@
 
 ## Master
 
+* rubocop-rspec gem integrated
+
 ## 0.3.6
 
 * Coffeelint: disable `no_this` rule
