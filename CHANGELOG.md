@@ -2,6 +2,8 @@
 
 ## Master
 
+## 0.4.0
+
 * rubocop-rspec gem integrated
 
 ## 0.3.6
