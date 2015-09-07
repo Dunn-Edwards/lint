@@ -12,6 +12,7 @@ namespace :lint do
     task.patterns = ['{app,config,features,lib,spec}/**/*.{rb,rake}']
     task.formatters = ['progress']
     task.fail_on_error = true
+    task.requires << 'rubocop-rspec'
     task.options = ['--config', config('rubocop.yml')]
   end
 
