@@ -1,0 +1,11 @@
+config_file:
+  scss: config/default/scss.yml
+  ruby: config/default/ruby.yml
+  coffeescript: config/default/coffeescript.json
+
+# Uncomment to check all files. By default lint checks modified and new files.
+# check_all_files: true
+
+# Uncomment to fail if code style does not match style rules. By default lint
+# does not fail.
+# fail_when_violations_found: true
