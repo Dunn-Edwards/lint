@@ -8,7 +8,10 @@ namespace :lint do
       files = "app/assets/stylesheets"
     else
       files = `git ls-files -om --exclude-standard | grep "\\.scss"`
-      files = files.gsub("\n", " ").presence || 'tmp'
+      files = files.gsub("\n", " ").presence
+      unless files
+        next # Alternative to "return" in rake
+      end
     end
 
     config_file   = Lint.config['config_file']['scss']
@@ -33,7 +36,10 @@ namespace :lint do
       shell_command = "coffeelint.rb -f #{config_file} -r #{files}"
     else
       files = `git ls-files -om --exclude-standard | grep "\\.coffee"`
-      files = files.gsub("\n", " ").presence || 'tmp'
+      files = files.gsub("\n", " ").presence
+      unless files
+        next # Alternative to "return" in rake
+      end
       shell_command = "coffeelint.rb -f #{config_file} #{files}"
     end
 
@@ -58,8 +64,8 @@ namespace :lint do
       task.patterns   = ['{app,config,features,lib,spec}/**/*.{rb,rake}']
       task.formatters = ['progress']
     else
-      files         = `git ls-files -om --exclude-standard | grep "\\.rb\\|\\.rake"`
-      files         = files.split.presence || 'tmp'
+      files = `git ls-files -om --exclude-standard | grep "\\.rb\\|\\.rake"`
+      files = files.split.presence || ['tmp']
       task.patterns = files
     end
 
