@@ -30,12 +30,31 @@ When using Rails, the following Rake tasks become available after adding the gem
     rake lint:coffeescript
     rake lint:ruby
     rake lint:scss
+    
+By default the gem checks modified and new files.
 
 When including the gem in other gems or non-Rails apps, add this in the `Rakefile`:
 
     spec = Gem::Specification.find_by_name('lint')
     load "#{spec.gem_dir}/lib/tasks/lint.rake"
 
+## Configuration
+
+To configure behaviour of the gem, add `lint.yml` to `config/` directory, with the following content:
+
+```yaml
+config_file:
+  scss: config/custom_rules/scss.yml
+  ruby: config/custom_rules/ruby.yml
+  coffeescript: config/custom_rules/coffeescript.json
+
+# Uncomment to check all files. By default lint checks modified and new files.
+# check_all_files: true
+
+# Uncomment to fail if code style does not match style rules. By default lint
+# does not fail.
+# fail_when_violations_found: true
+```
 
 ## Contributing
 
