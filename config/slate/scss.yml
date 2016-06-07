@@ -94,8 +94,7 @@ linters:
     max_depth: 2
     severity: warning
   SelectorFormat:
-    enabled: true
-    convention: hyphenated_lowercase
+    enabled: false
   Shorthand:
     enabled: true
     severity: warning
